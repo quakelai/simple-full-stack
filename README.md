@@ -1,7 +1,7 @@
 # 簡易全端網頁程式
 ## 假設我們是負責部署(程式運行)環境的工程師
 ### 安裝後端程式的語言 (Python) 的執行環境，以 Windows 為例
-  * 安裝 Anaconda(Python) 64-Bit Graphical Installer
+  * 下載並安裝 Anaconda(Python) 64-Bit Graphical Installer
   * 在 "開始" 中找到並執行 Anaconda Prompt (Anaconda3)
   * `conda create -n simple-full-stack python=3` 建立新 Python 環境
   * `conda activate simple-full-stack` 進入新環境
