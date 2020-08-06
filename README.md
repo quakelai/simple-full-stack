@@ -1,7 +1,7 @@
 # 簡易網頁程式 (以 Windows 為例)
-## 假設我們是負責佈署(程式運行)環境的工程師
+## 假設我們是負責佈署 (程式運行) 環境的工程師
 ### 建立簡易網頁程式的執行環境
-  * 下載並安裝 Anaconda(Python) 64-Bit Graphical Installer
+  * 下載並安裝 Anaconda 64-Bit Graphical Installer
   * 在 「開始」中找到並執行 Anaconda Prompt (Anaconda3)
   * `conda create -n simple-full-stack python=3`建立新 Python 環境
   * `conda activate simple-full-stack`進入新環境
@@ -16,7 +16,7 @@
   * `python app.py`執行程式
   * 如執行成功，可在瀏覽器上透過本機位址使用程式 (http://127.0.0.1:5000 或 http://localhost:5000)
 ### 以 ngrok 程式快速處理「網域 > SSL憑證 (https) > Public IP」這一段工作
-  * google 搜尋 ngrok download，下載並解壓縮 ngrok 程式
+  * 下載並解壓縮 ngrok 程式
   * 再開一個 Anaconda Prompt (Anaconda3)
   * 移動至 ngrok 程式所在目錄並執行
     * `cd Downloads`進入 Downloads 目錄
