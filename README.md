@@ -1,4 +1,4 @@
-# 簡易全端網頁程式
+# 簡易網頁程式
 ## 假設我們是負責部署(程式運行)環境的工程師
 ### 安裝後端程式的語言 (Python) 的執行環境，以 Windows 為例
   * 下載並安裝 Anaconda(Python) 64-Bit Graphical Installer
