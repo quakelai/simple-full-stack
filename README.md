@@ -22,5 +22,5 @@
   * 移動至 ngrok 執行檔所在目錄，如
     * `cd Downloads`
     * `cd ngrok-stable-windows-amd64`
-  * 執行`ngrok http 5000`後，會看到一段 https 網址如`https://cdcd5e0b3881.ngrok.io`，可於任何一台機器的瀏覽器上，透過網際網路使用此程式
+  * 執行`ngrok http 5000`後，會看到一段 https 網址如`https://cdcd5e0b3881.ngrok.io`，可於任何一台機器的瀏覽器上，透過此網址使用程式
 ### 完成～
