@@ -9,7 +9,7 @@
 ### 下載簡易網頁程式
   * `git clone https://github.com/quakelai/simple-full-stack.git`
   * 網頁程式經常區分為前後端，後端負責API，前端負責頁面。本程式的 app.py 算後端，templates/index.html 算前端
-  * templates/index.html 模擬了資料庫的基本功能 (CRUD: Create, Read, Update, & Delete)，因此本程式未使用真正的資料庫。一般來說，資料庫由資料庫管理員或後端工程師提供，與後端程式串接
+  * templates/index.html 模擬了資料庫的基本功能 (CRUD: Create, Read, Update, & Delete)，因此本程式未使用真正的資料庫
 ### 程式運作流程大致為：使用者 > 瀏覽器 > 網域 > SSL憑證 (https) > Public IP > 前端程式 > 後端程式 > 資料庫。佈署環境時，要處理「網域 >>>>> 資料庫」這一段。
 ### 執行簡易網頁程式
   * `cd simple-full-stack`進入 simple-full-stack 目錄
