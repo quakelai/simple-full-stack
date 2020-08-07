@@ -9,7 +9,6 @@
 ### 下載簡易網頁程式
   * `git clone https://github.com/quakelai/simple-full-stack.git`
   * 網頁程式經常區分為前後端。本程式的 templates/index.html 為前端，app.py 為後端
-    * 什麼是前端？什麼是後端？ https://15days.website/posts/frontend-vs-backend
   * templates/index.html 模擬了資料庫的基本功能 (CRUD: Create, Read, Update, & Delete)，因此本程式未使用真正的資料庫
 ### 程式運作流程大致為：使用者 > 瀏覽器 > 網域 > SSL憑證 (https) > Public IP > 前端程式 > 後端程式 > 資料庫。佈署環境時，要處理「網域 >>>>> 資料庫」這一段。
 ### 執行簡易網頁程式
@@ -26,4 +25,5 @@
   * 如執行成功，會看到一段 https 網址如 https://cdcd5e0b3881.ngrok.io ，即可於任何一台機器的瀏覽器上，透過此網址使用程式
 ### 完成👍
 ### 參考資料
-  * https://www.encodedna.com/javascript/how-to-create-a-simple-crud-application-using-only-javascript.htm
+  * 初探網頁架構和前後端語言 https://medium.com/appworks-school/a88a5dc86ee3
+  * 本程式的 html 來自 https://www.encodedna.com/javascript/how-to-create-a-simple-crud-application-using-only-javascript.htm
