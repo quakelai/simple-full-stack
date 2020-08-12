@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import os
 
 app = Flask(__name__)
 
@@ -7,4 +8,5 @@ def crud():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    app.run()
+    # app.run()
+    app.run(host='0.0.0.0',port=os.environ['PORT']) # for Heroku
